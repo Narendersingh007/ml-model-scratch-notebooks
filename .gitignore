@@ -1,0 +1,32 @@
+# Python virtual environment
+# This is crucial as it contains many files specific to your machine.
+/ml-env/
+venv/
+.venv/
+env/
+.env/
+
+# Python compiled files and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor-specific files (e.g., VS Code)
+.vscode/
+.idea/
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# Other common files to ignore
+*.log
+*.swp
+.DS_Store
