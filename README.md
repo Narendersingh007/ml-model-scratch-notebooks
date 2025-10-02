@@ -7,20 +7,32 @@ I’m documenting models, metrics, and concepts as I learn and experiment.
 
 ## 📂 Repository Structure
 ```
-├── data/                         # Datasets used in notebooks
+.
+├── data/                                    # datasets
 │   └── placement.csv
-├── ml-env/                       # Python virtual environment (local use only)
-├── multiple_linear_regression/   # Multiple Linear Regression examples
-│   └── multiple_linear_sklearn.ipynb
-├── regression_metrics/           # Evaluation metrics for regression models
-│   ├── regression_metrics_rmse.ipynb
+├── requirements.txt                         # python libraries needed
+├── multiple_linear_regression/              # for multi-variable regression
+│   ├── multiple_linear_sklearn.ipynb        # implementation with sklearn
+│   └── multiple_linear_scratch.ipynb        # built from scratch
+│   └── Multiple_linear_regression_notes.pdf # theory
+│
+├── gradient-descent/                        # GD stuff
+│   ├── gradient_descent.ipynb               # basic concept
+│   ├── gd_regressor.ipynb                   # full model using GD
+│   ├── Batch_learning.ipynb
+│   └── Gradient_descent_notes.pdf           # notes
+│
+├── simple_linear_regression/                # simple regression (1 variable)
+│   ├── simle_linear_regression.ipynb        # from scratch version
+│   ├── simple_linear_regreesion_sklearn.ipynb # sklearn version
+│   └── Simple_linear_regression.pdf         # notes for simple linear reg
+│
+├── regression_metrics                       # for model evaluation
+│   ├── regression_metrics_rmse.ipynb        # notebook for calculating scores like R2, MAE, etc.
 │   └── Regression_metrics.pdf
-├── simple_linear_regression/     # Simple Linear Regression examples
-│   ├── simle_linear_regression.ipynb
-│   ├── simple_linear_regreesion_sklearn.ipynb
-│   └── Simple_linear_regression.pdf
-├── requirements.txt              # Python dependencies
-└── README.md                     # Project documentation
+│
+├── README.md                                # project overview
+└── ml-env/                                  # python virtual env
 ```
 ---
 
